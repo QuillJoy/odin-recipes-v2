@@ -1,0 +1,8 @@
+.list{
+    text-align: center;
+}
+
+ul, ol{
+    display:inline-block;
+    font-size: 22px;
+}
