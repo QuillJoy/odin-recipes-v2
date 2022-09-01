@@ -1,33 +1,39 @@
-*{
-    background-color: black;
-    color: goldenrod;
-}
-
-
-.list{
-    text-align: center;
-}
-
-.list > ul{
-    display:inline-block;
-    font-size: 22px;
-}
-
-.list > ol{
-    display:inline-block;
-    font-size: 22px;
-}
-h1{
+.titlecenter{
     text-align:center;
+    background-color: transparent;
+    font-size:50px;
 }
 
-p{
-    text-indent: 40px;
+.listcenter{
+    text-align:center;
+    background-color: transparent;
 }
 
-.center{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 30%;
+/* this centers the words in ther list */
+
+
+.myUl{
+    display:inline-block;
+    text-align: left;
+    font-size:20px;
+}
+/* this centers the bullets */
+
+.abscenter{
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+/* this centers the entire body */
+
+body{
+    background-image:url("images/home.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
 }
