@@ -1,16 +1,23 @@
-.titlecenter{
+.titleposition{
     text-align:center;
     background-color: transparent;
-    font-size:3.5vw;
+    position: absolute;
+    right: 65%;
+    top:10%;
+    text-shadow: 2px 2px black;
+    font-size:4vw;
+    color:goldenrod;
     /* vw to scale with window*/
+    width: 22vw;
 }
+
 
 .white{
     color:white;
 }
 .listcenter{
     text-align:center;
-    background-color: transparent;
+    background: rgba(49, 49, 49, .8)
 }
 
 /* this centers the words in ther list */
@@ -26,13 +33,22 @@
 .abscenter{
     margin: 0;
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 70%;
+    left: 24%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: transparent;
+
 }
 
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
 /* this centers the entire body */
 
 body{
