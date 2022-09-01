@@ -1,9 +1,13 @@
 .titlecenter{
     text-align:center;
     background-color: transparent;
-    font-size:50px;
+    font-size:3.5vw;
+    /* vw to scale with window*/
 }
 
+.white{
+    color:white;
+}
 .listcenter{
     text-align:center;
     background-color: transparent;
@@ -15,7 +19,7 @@
 .myUl{
     display:inline-block;
     text-align: left;
-    font-size:20px;
+    font-size:1.5vw;
 }
 /* this centers the bullets */
 
@@ -32,7 +36,7 @@
 /* this centers the entire body */
 
 body{
-    background-image:url("images/home.jpg");
+    background-image:url("images/home2.jpeg");
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
