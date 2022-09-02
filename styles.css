@@ -6,7 +6,7 @@
     top:10%;
     text-shadow: 2px 2px black;
     font-size:4vw;
-    color:goldenrod;
+    color:gold;
     /* vw to scale with window*/
     width: 22vw;
 }
@@ -17,7 +17,6 @@
 }
 .listcenter{
     text-align:center;
-    background: rgba(49, 49, 49, .8)
 }
 
 /* this centers the words in ther list */
@@ -27,14 +26,15 @@
     display:inline-block;
     text-align: left;
     font-size:1.5vw;
+    color:white;
 }
 /* this centers the bullets */
 
 .abscenter{
     margin: 0;
     position: absolute;
-    top: 70%;
-    left: 24%;
+    top: 60%;
+    left: 23%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: transparent;
@@ -52,7 +52,14 @@ a{
 /* this centers the entire body */
 
 body{
+    /*
     background-image:url("images/home2.jpeg");
+    background:radial-gradient( circle, transparent 1%, black 150%),
+                url("images/home2.jpeg");
+    */
+    background-image:
+    linear-gradient(to right,rgba(0, 0, 0, 0.973),transparent, transparent),
+    url("images/home2.jpeg");
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
