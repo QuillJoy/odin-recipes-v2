@@ -13,9 +13,6 @@
 }
 
 
-.white{
-    color:white;
-}
 .listcenter{
     text-align:center;
 }
@@ -50,6 +47,7 @@ a:visited{
 
 a{
     text-decoration: none;
+    color:white;
 }
 /* this centers the entire body */
 
