@@ -3,10 +3,28 @@
     src: url("../HyliaSerif.otf");
 }
 
-body{
+.mush{
     background-image:
     linear-gradient(to right,rgba(0, 0, 0, 0.973),transparent, transparent, transparent),
-    url("../images/home.jpeg");
+    url("../images/pic1.jpeg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.egg{
+    background-image:
+    linear-gradient(to right,rgba(0, 0, 0, 0.973),transparent, transparent, transparent),
+    url("../images/pic2.jpeg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.dub{
+    background-image:
+    linear-gradient(to right,rgba(0, 0, 0, 0.973),transparent, transparent, transparent),
+    url("../images/pic2.jpeg");
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
