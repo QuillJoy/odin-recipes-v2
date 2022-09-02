@@ -1,6 +1,15 @@
+.titleposition,
+.myUl,
+.abscenter{
+    background-color:transparent;
+}
+
+
+
+
+
 .titleposition{
     text-align:right;
-    background-color: transparent;
     position: absolute;
     right: 80%;
     top:5%;
@@ -25,7 +34,6 @@
     text-align: left;
     font-size:2vw;
     color:white;
-    background-color: transparent;
 }
 /* this centers the bullets */
 
@@ -36,19 +44,14 @@
     left: 13%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background-color: transparent;
 
 }
 
-a:visited{
+a:visited, a{
     color:white;
     text-decoration: none;
 }
 
-a{
-    text-decoration: none;
-    color:white;
-}
 /* this centers the entire body */
 
 body{
