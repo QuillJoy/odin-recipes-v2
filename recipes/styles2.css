@@ -24,13 +24,14 @@
 .dub{
     background-image:
     linear-gradient(to right,rgba(0, 0, 0, 0.973),transparent, transparent, transparent),
-    url("../images/pic2.jpeg");
+    url("../images/pic3.jpeg");
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
 }
 
-.title{
+.title,
+.dubi{
     font-family: "Hylia Serif";
     color: lightgoldenrodyellow;
     width: 22vw;
@@ -40,7 +41,12 @@
     text-align: right;
 }
 
-.background-shape-recipe{
+.dubi{
+    color:purple;
+}
+
+.background-shape-recipe,
+.dubi-background-recipe{
     height:  36vw;;
     width: 30vw;
     background-color:rgb(250, 250, 210,.8);
@@ -50,6 +56,11 @@
     position:absolute;
     right: 40%;
     top:15%;
+}
+
+.dubi-background-recipe{
+    background-color: rgba(73, 0, 73, 0.8);
+    color:white;
 }
 
 .background-shape-image{
