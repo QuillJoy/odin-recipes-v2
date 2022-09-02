@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Hylia Serif" ;
+    src: url(HyliaSerif.otf);
+}
+
+
+
+
 .titleposition,
 .myUl,
 .abscenter{
@@ -17,6 +25,7 @@
     /* vw to scale with window*/
     width: 22vw;
     height: 18vw;
+    font-family: "Hylia Serif";
 }
 
 
@@ -35,14 +44,14 @@
 }
 /* this centers the bullets */
 
-.abscenter{
+.listposition{
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 13%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-
+/* this centers the entire body */
 }
 
 a:visited, a{
@@ -50,7 +59,7 @@ a:visited, a{
     text-decoration: none;
 }
 
-/* this centers the entire body */
+
 
 body{
     background-image:
