@@ -1,14 +1,15 @@
 .titleposition{
-    text-align:center;
+    text-align:right;
     background-color: transparent;
     position: absolute;
-    right: 65%;
-    top:10%;
+    right: 80%;
+    top:5%;
     text-shadow: 2px 2px black;
     font-size:4vw;
     color:gold;
     /* vw to scale with window*/
     width: 22vw;
+    height: 18vw;
 }
 
 
@@ -25,16 +26,17 @@
 .myUl{
     display:inline-block;
     text-align: left;
-    font-size:1.5vw;
+    font-size:2vw;
     color:white;
+    background-color: transparent;
 }
 /* this centers the bullets */
 
 .abscenter{
     margin: 0;
     position: absolute;
-    top: 60%;
-    left: 23%;
+    top: 50%;
+    left: 13%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: transparent;
@@ -52,15 +54,12 @@ a{
 /* this centers the entire body */
 
 body{
-    /*
-    background-image:url("images/home2.jpeg");
-    background:radial-gradient( circle, transparent 1%, black 150%),
-                url("images/home2.jpeg");
-    */
     background-image:
     linear-gradient(to right,rgba(0, 0, 0, 0.973),transparent, transparent),
     url("images/home2.jpeg");
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
+
+
 }
