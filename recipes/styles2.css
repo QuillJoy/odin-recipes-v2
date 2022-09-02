@@ -112,3 +112,24 @@ img{
     top:10%;
 
 }
+
+.buttonnext,
+.buttonback{
+    background-color:goldenrod;
+    padding: 15px 32px;
+    position: relative;
+    top:50%;
+    font-family: "Hylia Serif";
+    font-size: 2vw;
+    margin:30px;
+}
+
+.buttonback{
+    left:1%;
+}
+buttonnext{
+    right:25%;
+}
+
+
+
