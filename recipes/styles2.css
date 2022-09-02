@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Hylia Serif";
+    src: url("../HyliaSerif.otf");
+}
+
 body{
     background-image:
     linear-gradient(to right,rgba(0, 0, 0, 0.973),transparent, transparent, transparent),
@@ -5,6 +10,31 @@ body{
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
+}
 
+.title{
+    font-family: "Hylia Serif";
+    color: lightgoldenrodyellow;
+    width: 22vw;
+    height: 10vw;
+    margin-top:5vw;
+    font-size: 4vw;
+    text-align: right;
+}
 
+.background-shape{
+    height:  35vw;;
+    width: 30vw;
+    background-color:lightgoldenrodyellow, ;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    position:absolute;
+    right: 20%;
+
+}
+
+.recipe-body{
+    text-align: center;
+    background: red;
 }
