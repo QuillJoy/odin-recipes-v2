@@ -55,7 +55,7 @@ a{
 
 body{
     background-image:
-    linear-gradient(to right,rgba(0, 0, 0, 0.973),transparent, transparent),
+    linear-gradient(to right,rgba(0, 0, 0, 0.973),transparent, transparent, transparent),
     url("images/home2.jpeg");
     background-repeat:no-repeat;
     background-attachment:fixed;
