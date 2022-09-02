@@ -17,11 +17,10 @@
 .titleposition{
     text-align:right;
     position: absolute;
-    right: 80%;
-    top:5%;
-    text-shadow: 2px 2px black;
+    right: 77%;
+    top:1%;
     font-size:4vw;
-    color:gold;
+    color:lightgoldenrodyellow;
     /* vw to scale with window*/
     width: 22vw;
     height: 18vw;
@@ -41,13 +40,14 @@
     text-align: left;
     font-size:2vw;
     color:white;
+    text-shadow: 2px 2px black;
 }
 /* this centers the bullets */
 
 .listposition{
     margin: 0;
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 13%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
